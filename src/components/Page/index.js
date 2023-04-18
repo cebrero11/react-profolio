@@ -9,13 +9,13 @@ const Page = (currentPage) => {
     const renderPage = () =>{
         switch (currentPage.name){
             case 'about me':
-                return <About />; 
+                return <About />;  
             case 'portfolio':
-                return <Portfolio />
+                return <Portfolio />;
             case 'resume':
-                return <Resume />
+                return <Resume />;
             case 'contact':
-                return <Contact /> 
+                return <Contact />;
             default:
                 return <About />;  
         }

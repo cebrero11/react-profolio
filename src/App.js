@@ -33,7 +33,7 @@ function App() {
           /> 
       </Header>
       <main>
-        <Page currentPage={currentPage} />
+        <Page currentPage={currentPage}></Page>
       </main>
       <Footer />
     </div>
